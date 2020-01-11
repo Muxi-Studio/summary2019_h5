@@ -10,18 +10,25 @@
     <div id="iSlider-wrapper"></div>
     <div style="display: none">
         <div id="first">
-            <img class="first-title" src="image/zi.png" alt="标题">
-            <img class="first-rcloud" src="image/cloud1.png" alt="云朵-右">
-            <img class="first-lcloud" src="image/cloud2.png" alt="云朵-左">
-            <img class="first-pig" src="image/pig.png" alt="小猪">
+            <img class="first-title" src="image/page1/zi.png" alt="标题">
+            <img class="first-rcloud" src="image/page1/cloud1.png" alt="云朵-右">
+            <img class="first-lcloud" src="image/page1/cloud2.png" alt="云朵-左">
+            <img class="first-pig" src="image/page1/pig.png" alt="小猪">
         </div>
         <div id="second">
             <img class="second_fcloud" src="image/云1.png" >
             <img class="second_scloud" src="image/云2.png" >
             <img class="second_tcloud" src="image/云3.png" >
         </div>
-        <div id="third">第三个</div>
-        <div id="test">测试</div>
+        <div id="third">
+            <img class="third-cloud1" src="image/page3/云1.png">
+            <div class="third-top">time???</div>
+            <div class="third-middle">你在<span>???</span><br> 开始了你一天的消费</div>
+            <img class="third-cloud2" src="image/page3/云2.png">
+            <div class="third-word1">这是一年里</div>
+            <div class="third-word2">你刷卡<span>最早</span>的一天</div>
+            <img class="third-pig" src="image/common/pig.png">
+        </div>
     </div>
     <script src="js/iSlider.js"></script>
     <script src="js/iSlider.min.js"></script>
@@ -36,9 +43,6 @@
             },
             {
                 content: document.querySelector('#third')
-            },
-            {
-                content: document.querySelector('#test')
             }
         ]
         var S = new iSlider({dom: document.getElementById('iSlider-wrapper'), 

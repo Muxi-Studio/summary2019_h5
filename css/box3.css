@@ -1,0 +1,39 @@
+.third-cloud1{
+    position: absolute;
+    width: 39.94vw;
+    height: 9.16vh;
+}
+.third-cloud2{
+    position: absolute;
+    width: 45vw;
+    height: 18vh;
+}
+.third-pig{
+    position: absolute;
+    width: 28vw;
+    height: 14vh;
+    right: 1.66vw;
+    animation-name:pigdrop,pigdance;
+    animation-delay: 0.3s;
+    animation-duration: 1.5s,4s;
+    animation-timing-function: ease,linear;
+    animation-iteration-count: 1,infinite;
+    animation-fill-mode:forwards;
+}
+@keyframes pigdrop 
+{
+from {bottom: 100vh;}
+to {
+    bottom: 3.2vh;
+    }
+}
+@-webkit-keyframes pigdrop 
+{
+from {bottom: 100vh;}
+to {bottom: 3.2vh;}
+}
+@keyframes pigdance
+{
+from {transform: rotate(0deg);}
+to{transform: rotate(360deg);}
+}
