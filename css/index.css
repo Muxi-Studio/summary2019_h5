@@ -1,3 +1,11 @@
+@font-face
+{
+font-family: Myfont;
+src: url('./../myfont.ttf'),
+}
+body{
+    margin:0;
+}
 #iSlider-wrapper {
     height: 100%;
     width: 100%;
@@ -30,8 +38,11 @@
     height: 100%;
 }
 #second{
-    background-color: red;
-}
+    width:100vw;
+    height:100vh;
+    background: url(./../image/back2.png);
+    background-size:cover;
+}   
 #third{
     background-color: cadetblue;
 }
