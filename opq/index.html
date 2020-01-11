@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/iSlider.css"/>
+    <title> Demo </title>
+</head>
+<body>
+    <div id="iSlider-wrapper"></div>
+    <div style="display: none">
+        <div id="first">
+            <img class="first-title" src="image/zi.png" alt="标题">
+            <img class="first-rcloud" src="image/cloud1.png" alt="云朵-右">
+            <img class="first-lcloud" src="image/cloud2.png" alt="云朵-左">
+            <img class="first-pig" src="image/pig.png" alt="小猪">
+        </div>
+        <div id="second">第二个</div>
+        <div id="third">第三个</div>
+        <div id="test">测试</div>
+    </div>
+    <script src="js/iSlider.js"></script>
+    <script src="js/iSlider.min.js"></script>
+    <script id="show-code">
+        var list = [
+            {
+                content: document.querySelector('#first')
+            },
+            {
+                content: document.querySelector('#second')
+            },
+            {
+                content: document.querySelector('#third')
+            },
+            {
+                content: document.querySelector('#test')
+            }
+        ]
+        var S = new iSlider({dom: document.getElementById('iSlider-wrapper'), 
+                            data: list,
+                            isVertical: true
+                            });
+    </script>
+</body>
+</html>
