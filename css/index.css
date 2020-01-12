@@ -1,6 +1,11 @@
 body{
     margin: 0;
 }
+@font-face
+{
+font-family: Myfont;
+src: url('./../myfont.ttf'),
+}
 #iSlider-wrapper {
     height: 100%;
     width: 100%;
@@ -33,7 +38,10 @@ body{
     height: 100%;
 }
 #second{
-    background-color: blue;
+    width:100vw;
+    height:100vh;
+    background: url(./../image/back2.png);
+    background-size:cover;
 }
 #third{
     background: url(../image/page3/background.jpg);
