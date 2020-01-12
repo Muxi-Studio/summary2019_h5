@@ -42,11 +42,13 @@ src: url('./../myfont.ttf'),
     height:100vh;
     background: url(./../image/back2.png);
     background-size:cover;
-<<<<<<< Updated upstream
-=======
-}   
+}
+
 #third{
-    background-color: cadetblue;
+    background: url(../image/page3/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
 }
 #forth{
     width:100vw;
@@ -87,11 +89,5 @@ to {
 {
 from {top: 44.4vh;}
 to {top: 100vh;}
->>>>>>> Stashed changes
 }
-#third{
-    background: url(../image/page3/background.jpg);
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-}
+
