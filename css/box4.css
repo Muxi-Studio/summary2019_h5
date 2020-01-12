@@ -1,0 +1,91 @@
+.forth_fcloud{
+    width: 53.8vw;
+    height: 20vh;
+    position: relative;
+    top: 55vh;
+    left: 72vw;
+}
+.forth_scloud{
+    width: 78vw;
+    height: 29vh;
+    position: relative;
+    top: 54vh;
+    left: -92px;
+}
+.forth_icon{
+    width:43vw;
+    height:42vw;
+    position: relative;
+    top: -1vh;
+    left: 110px;
+}
+.forth_style1{
+    font-family:"Myfont";
+    font-size:6.5vw;
+    color: #983A3F;
+}
+.forth_style2{
+    font-family:"Myfont";
+    font-size:7vw;
+    color: red;
+}
+.forth_style3{
+    font-family:"Myfont";
+    font-size:5.5vw;
+    color: #983A3F;
+}
+.forth_style4{
+    font-family:"Myfont";
+    font-size:7.5vw;
+    color: white;
+}
+.forth_style5{
+    font-family:"Myfont";
+    font-size:7.5vw;
+    color: #983A3F;
+}
+.forth_style6{
+    font-family:"Myfont";
+    font-size:5.5vw;
+    color: white;
+}
+.forth_style7{
+    font-family:"Myfont";
+    font-size:7vw;
+    color: white;
+}
+.forth_text1{
+    position: absolute;
+    top: 16.67vh;
+    left: 28.89vw;
+}
+.forth_text2{
+    position: absolute;
+    top: 24vh;
+    left: 62vw;
+}
+.forth_text3{
+    position: absolute;
+    top: 28vh;
+    left: 46vw;
+}
+.forth_text4{
+    position: absolute;
+    top: 36vh;
+    left: 0vw;
+}
+.forth_text5{
+    position: absolute;
+    top: 43vh;
+    left: 32vw;
+}
+.forth_text6{
+    position: absolute;
+    top: 73vh;
+    left: 25vw; 
+}
+.forth_text7{
+    position: absolute;
+    top: 78vh;
+    left: 28vw;
+}

@@ -42,6 +42,52 @@ src: url('./../myfont.ttf'),
     height:100vh;
     background: url(./../image/back2.png);
     background-size:cover;
+<<<<<<< Updated upstream
+=======
+}   
+#third{
+    background-color: cadetblue;
+}
+#forth{
+    width:100vw;
+    height:100vh;
+    background: url(./../image/back4.jpg);
+    background-size:cover;
+}
+.first-title{
+    width:90vw;
+    height:24.5vh;
+    position: absolute;
+    top: 12vh;
+    z-index: 50;
+}
+.first-pig{
+    width:36vw;
+    height:19vh;
+    position: absolute;
+    top: 44.4vh;
+    right: 13.9vw;
+    z-index: 99;
+    animation-name:pigdrop;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+    animation-delay:3.5s;
+    -webkit-animation-delay:3.5s;
+    animation-timing-function: ease-in;
+}
+@keyframes pigdrop 
+{
+from {top: 44.4vh;}
+to {
+    top: 100vh;
+    transform: rotate(180deg);
+    }
+}
+@-webkit-keyframes pigdrop 
+{
+from {top: 44.4vh;}
+to {top: 100vh;}
+>>>>>>> Stashed changes
 }
 #third{
     background: url(../image/page3/background.jpg);
