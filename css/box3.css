@@ -2,11 +2,15 @@
     position: absolute;
     width: 39.94vw;
     height: 9.16vh;
+    top: 0vh;
+    left: 0vw;
 }
 .third-cloud2{
     position: absolute;
     width: 45vw;
     height: 18vh;
+    top: 21vh;
+    right: 0vw;
 }
 .third-pig{
     position: absolute;
