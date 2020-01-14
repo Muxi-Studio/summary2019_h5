@@ -1,0 +1,55 @@
+.eight-lcloud{
+    width: 31.48vw;
+    height: 8.54vh;
+    position: absolute;
+    left: 3.8vw;
+    top: 4.58vh;
+}
+.eight-rcloud{
+    width: 31.3vw;
+    height: 9.38vh;
+    position: absolute;
+    right: 3.8vw;
+    top: 29.79vh;
+}
+.eight-box{
+    width: 46.4vw;
+    height: 9.27vh;
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+
+    margin: auto;
+    left: 27vw;
+    top: 60.2vh;
+}
+.eight-cfont{
+    font-family: MyFont;
+    position: absolute;
+    color: rgba(66, 114, 163, 1);
+}
+.eight-font1{
+    font-size: 1.4rem;
+    top: 14.38vh;
+    left: 24.9vw;
+}
+.eight-font2{
+    font-size: 1.4rem;
+    top: 21vh;
+    left: 33.5vw;
+}
+.eight-font3{
+    color: rgba(240, 194, 69, 1);
+    font-size: 2.1875rem;
+    top: 30.63vh;
+    left: 36.6vw;
+}
+.eight-font4{
+    font-size: 2rem;
+    top: 41.5vh;
+    left: 18.5vw;
+}
+.eight-font5{
+    font-size: 2rem;
+    top: 50vh;
+    left: 28vw;
+}

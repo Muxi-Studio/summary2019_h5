@@ -14,6 +14,8 @@
             <img class="first-rcloud" src="image/page1/cloud1.png" alt="云朵-右">
             <img class="first-lcloud" src="image/page1/cloud2.png" alt="云朵-左">
             <img class="first-pig" src="image/page1/pig.png" alt="小猪">
+            <img class="first-point" src="image/page1/point.png">
+            <img class="first-find" src="image/page1/find.png">
         </div>
         <div id="second">
             <img class="second_fcloud" src="image/云1.png" >
@@ -22,12 +24,58 @@
         </div>
         <div id="third">
             <img class="third-cloud1" src="image/page3/云1.png">
-            <div class="third-top">time???</div>
-            <div class="third-middle">你在<span>???</span><br> 开始了你一天的消费</div>
+            <div class="third-top third-font">在<span id="third-inner11">2019年10月10日</span></div>
+            <div class="third-middle third-font">你在<span id="third-inner2">学子食堂</span><br><br> 开始了你一天的消费</div>
             <img class="third-cloud2" src="image/page3/云2.png">
-            <div class="third-word1">这是一年里</div>
-            <div class="third-word2">你刷卡<span>最早</span>的一天</div>
-            <img class="third-pig" src="image/common/pig.png">
+            <div class="third-word1 third-font">这是一年里</div>
+            <div class="third-word2 third-font">你刷卡<span>最早</span>的一天</div>
+            <div class="third-font third-word3">时间在<span id="third-inner12">10：00</span></div>
+            <img id="third-con-img" src="image/page3/朝霞.png">
+            <div id="third-con-word" class="third-font">清晨的朝霞美丽吗？</div>
+            <img class="third-pig" src="image/common/方猪.png">
+        </div>
+        <div id="forth">
+            <div class="temp">temp</div>
+        </div>
+        <div id="six">
+            <img class="six-cloud3" src="image/page6/云3.png"> 
+            <img class="six-kite" src="image/page6/风筝.png"> 
+            <div class="six-w1 six-font1">在2019年里</div>            
+            <div class="six-w2 six-font2" id="six-inner1">博雅园食堂</div>
+            <div class="six-w3 six-font1">是你消费<span>最多</span>的地方</div>            
+            <div class="six-w4 six-font1">总共消费了<span id="six-inner2">1234</span>次</div>
+            <div class="six-w5 six-font1">为它贡献了￥<span id="six-inner3">12345</span></div>            
+            <img class="six-cloud1" src="image/page6/云1.png">   
+            <img class="six-cloud2" src="image/page6/云2.png"> 
+        </div>
+        <div id="seven">
+            <img class="seven-title" src="image/page7/tag.png">
+            <div class="seven-tbox">
+                <div class="seven-tb1">最壕消费金额:￥<span id="seven-inner5">999999</span></div>
+                <div class="seven-tb2">年度最受欢迎食堂:</div>
+                <div class="seven-tb3" id="seven-inner6">东一食堂</div>
+            </div>
+            <div class="seven-mbox">
+                <div class="seven-mb1">最早de消费：</div>
+                <div class="seven-mb2"><span id="seven-inner1">10月10日</span> <span id="seven-inner2">东一食堂 xx窗口</span></div>
+            </div>
+            <div class="seven-bbox">
+                <div class="seven-bb1">最晚de消费:</div>
+                <div class="seven-bb1"><span id="seven-inner3">10月10日</span> <span id="seven-inner4">东一食堂 xx窗口</span></div>
+            </div>
+            <img class="seven-tdragon seven-dra" src="image/page7/龙左.png">
+            <img class="seven-mdragon seven-dra" src="image/page7/龙右.png">
+            <img class="seven-bdragon seven-dra" src="image/page7/龙左.png">
+        </div>
+        <div id="eight">
+            <img class="eight-lcloud" src="image/page8/左云.png">
+            <img class="eight-rcloud" src="image/page8/右云.png">
+            <div class="eight-font1 eight-cfont">你的2019故事</div>
+            <div class="eight-font2 eight-cfont">到此结束</div>
+            <div class="eight-font3 eight-cfont">But</div>
+            <div class="eight-font4 eight-cfont">你的2020故事</div>
+            <div class="eight-font5 eight-cfont">即将开始!</div>
+            <img class="eight-box" src="image/page8/框.png">
         </div>
     </div>
     <script src="js/iSlider.js"></script>
@@ -43,6 +91,18 @@
             },
             {
                 content: document.querySelector('#third')
+            },
+            {
+                content: document.querySelector('#forth')
+            },
+            {
+                content: document.querySelector('#six')
+            },
+            {
+                content: document.querySelector('#seven')
+            },
+            {
+                content: document.querySelector('#eight')
             }
         ]
         var S = new iSlider({dom: document.getElementById('iSlider-wrapper'), 
@@ -50,5 +110,6 @@
                             isVertical: true
                             });
     </script>
+    <script src="/js/request.js"></script>
 </body>
 </html>

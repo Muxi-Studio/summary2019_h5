@@ -1,0 +1,60 @@
+.six-font1,.six-font2{
+    font-family: MyFont;
+    position: absolute;
+}
+.six-font1{
+    font-size: 1.5625rem;
+    color: rgba(101, 53, 97, 1);
+}
+.six-font2{
+    font-size: 2.375rem;
+    color: rgba(225, 91, 77, 1);
+}
+.six-w1{
+    top: 10vh;
+    left: 27vw;
+}
+.six-w2{
+    top: 17vh;
+    left: 25vw;
+}
+.six-w3{
+    left: 16vw;
+    top: 32vh;
+}
+.six-w4{
+    left: 18vw;
+    top: 41vh;
+}
+.six-w5{
+    left: 16vw;
+    top: 50vh;
+}
+.six-cloud3{
+    position: absolute;
+    width: 35vw;
+    height: 11vh;
+    top: 12.5vh;
+    left: -14vw;
+}
+.six-kite{
+    position: absolute;
+    width: 22.5vw;
+    height: 14.5vh;
+    top: 5.2vh;
+    right: 1.8vw;
+}
+.six-cloud1{
+    position: absolute;
+    width: 85.4vw;
+    height: 16.5vh;
+    left: 0;
+    bottom: 11.7vh;
+}
+.six-cloud2{
+    position: absolute;
+    width: 57vw;
+    height: 15vh;
+    left: -10vw;
+    bottom: -6vh;
+}

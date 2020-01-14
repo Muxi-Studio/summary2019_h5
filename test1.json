@@ -1,0 +1,15 @@
+{
+    "minTimes": "2019-12-12 11:00",
+    "minPlace": "桂香园",
+
+    "mostPlace": "学子食堂",
+    "mostTimes": "123",
+    "mostCost": "1000",
+
+    "mostMoney": "9999",
+    "earliestTime": "12月10日",
+    "earliestPlace": "学子食堂 窗口1",
+    "latestTime": "10月12日",
+    "latestPlace": "东一食堂 窗口abc",
+    "famousRestaurant": "桂香园餐厅" 
+}

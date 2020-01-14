@@ -4,7 +4,7 @@ body{
 @font-face
 {
 font-family: Myfont;
-src: url('./../myfont.ttf'),
+src: url('../fonts/myfont.ttf');
 }
 #iSlider-wrapper {
     height: 100%;
@@ -36,6 +36,8 @@ src: url('./../myfont.ttf'),
 #first{
     width: 100%;
     height: 100%;
+    background: url(../image/page1/back.jpg);
+    background-size: cover;
 }
 #second{
     width:100vw;
@@ -48,4 +50,22 @@ src: url('./../myfont.ttf'),
     width: 100vw;
     height: 100vh;
     background-size: cover;
+}
+#six{
+    background: url(../image/page6/back.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;  
+}
+#seven{
+    background: url(../image/page7/back.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;     
+}
+#eight{
+    background: url(../image/page8/back.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;     
 }

@@ -1,37 +1,35 @@
 .third-cloud1{
     position: absolute;
-    width: 39.94vw;
-    height: 9.16vh;
-    top: 0vh;
-    left: 0vw;
+    width: 45vw;
+    height: 12vh;
+    top: -3vh;
+    left: -7vw;
 }
 .third-cloud2{
     position: absolute;
     width: 45vw;
     height: 18vh;
-    top: 21vh;
-    right: 0vw;
+    bottom: 4.5vh;
+    left: -3vw;
 }
 .third-pig{
     position: absolute;
-    width: 28vw;
-    height: 14vh;
+    width: 25.9vw;
+    height: 14.6vh;
     right: 1.66vw;
-    animation-name:pigdrop,pigdance;
+    animation-name:pigdropping,pigdance;
     animation-delay: 0.3s;
-    animation-duration: 1.5s,4s;
+    animation-duration: 1.5s,3.5s;
     animation-timing-function: ease,linear;
     animation-iteration-count: 1,infinite;
     animation-fill-mode:forwards;
 }
-@keyframes pigdrop 
+@keyframes pigdropping 
 {
 from {bottom: 100vh;}
-to {
-    bottom: 3.2vh;
-    }
+to {bottom: 3.2vh;}
 }
-@-webkit-keyframes pigdrop 
+@-webkit-keyframes pigdropping 
 {
 from {bottom: 100vh;}
 to {bottom: 3.2vh;}
@@ -40,4 +38,62 @@ to {bottom: 3.2vh;}
 {
 from {transform: rotate(0deg);}
 to{transform: rotate(360deg);}
+}
+@-webkit-keyframes pigdance
+{
+from {transform: rotate(0deg);}
+to{transform: rotate(360deg);}
+}
+.third-font{
+    font-family: MyFont;
+    position: absolute;
+}
+.third-top{
+    top: 11vh;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.25rem;
+    color: rgba(76, 107, 163, 1);
+}
+.third-middle{
+    top: 19.5vh;
+    left: 4vw;
+    font-size: 1rem;
+    color: rgba(76, 107, 163, 1);
+}
+.third-word1{
+    left: 5vw;
+    top: 34.7vh;
+    font-size: 1.5625rem;
+    color: rgba(255, 137, 33, 1);
+}
+.third-word2{
+    left: 15vw;
+    top: 40.7vh;
+    font-size: 1.5625rem;
+    color: rgba(255, 137, 33, 1);
+}
+.third-word3{
+    font-size: 1rem;
+    color: rgba(76, 107, 163, 1);
+    text-align: center;
+}
+#third-con-img,#third-con-word{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#third-con-img{
+    top: 57vh;
+    width: 54.8vw;
+    height: 17vh;
+}
+#third-con-word{
+    color: rgba(255, 137, 33, 1);
+    font-size: 1rem;
+    text-align: center;
+    bottom: 20.8vh;
 }

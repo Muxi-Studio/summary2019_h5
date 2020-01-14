@@ -1,0 +1,140 @@
+.seven-title{
+    width: 39.54vw;
+    height: 4.58vh;
+    margin-left: 30.2vw;
+    margin-top: 5vh;
+}
+.seven-dra{
+    height: 30vh;
+    position: absolute;
+    z-index: 1;
+}
+.seven-bdragon{
+    left: 100vw;
+    bottom: 16.7vh;
+    animation-name: dragon1;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes dragon1
+{
+    from{left:100vw;}
+    to{left:-280vw;}
+}
+.seven-mdragon{
+    right: 100vw;
+    bottom: 40vh;
+    animation-name: dragon2;
+    animation-delay: 4s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes dragon2
+{
+    from{right: 100vw;}
+    to{right: -50vh;}
+}
+.seven-tdragon{
+    left:100vw;
+    top: 5vh;
+    animation-name: dragon3;
+    animation-delay: 6.5s;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes dragon3
+{
+    from{left: 100vw;}
+    to{left: -35vw;}
+}
+.seven-tbox,.seven-mbox,.seven-bbox{
+    font-family: MyFont;
+    font-size: 1.4rem;
+}
+
+.seven-tbox{
+    z-index: 100;
+    position: absolute;
+    top: 13vh;
+    left: 0;    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 1.25rem;
+}
+.seven-mbox{
+    position: absolute;
+    z-index: 100;
+    bottom: 42vh;
+    padding: 2.8rem 0 2.8rem 2.6rem;
+}
+.seven-bbox{
+    z-index: 100;
+    position: absolute;
+    bottom: 18.7vh;
+    padding: 2.8rem 0 2.8rem 2.6rem;
+}
+.seven-tb1{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 9s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.seven-tb2{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.seven-tb3{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-delay: 11s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.seven-mb1{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 12.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.seven-mb2{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-delay: 13.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.seven-bb1{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 15s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.seven-bb2{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-delay: 16s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
