@@ -1,15 +1,97 @@
+@font-face
+{
+font-family: "Myfont";
+src: url('./../myfont.ttf');
+}
 .second_fcloud{
-    width:372rpx;
-    height:212rpx;
+    width:34.44vw;
+    height:11.04vh;
+    position:relative;
 }
 .second_scloud{
-    width:353rpx;
-    height:179rpx;
-    margin-top:404rpx;
-    float:right;
+    width:32.69vw;
+    height:9.32vh;
+    position:relative;
+    top:24vh;   
+    right: -30vw;
 }
 .second_tcloud{
-    width:497rpx;
-    height:376rpx;
-    margin-top:1481rpx;
+    width:46.02vw;
+    height:19.58vh;
+    top:69.14vh;
+    position:relative;
 }
+.second_style1{
+    font-family:"Myfont";
+    font-size:8vw;
+    color: #264F40;
+}
+.second_style2{
+    font-family:"Myfont";
+    font-size:10vw;
+    color: #DC4B3C;
+}
+.second_style3{
+    font-family:"Myfont";
+    font-size:13.3vw;
+    color: #DC4B3C;
+}
+.second_style4{
+    font-family:"Myfont";
+    font-size:6.2vw;
+    color: #264F40;
+}
+.second_style5{
+    font-family:"Myfont";
+    font-size:8vw;
+    color: #496EB4;
+}
+.second_text1{
+    position: absolute;
+    top:12.67vh;
+    left:3.89vw;
+}
+.second_text2{
+    position: absolute;
+    top:19vh;
+    left:20vw;
+}
+.second_text3{
+    position: absolute;
+    top:30vh;
+    left:3.89vw;
+}
+.second_text4{
+    position: absolute;
+    top:35vh;
+    left:28vw;
+}
+.second_text5{
+    position: absolute;
+    top:43vh;
+    left:5vw;
+}
+.second_text6{
+    position: absolute;
+    top:54vh;
+    left:22vw;
+}
+.second_text7{
+    position: absolute;
+    top:58vh;
+    left:5vw;
+}
+.second_text8{
+    position: absolute;
+    top:66vh;
+    left:31vw;
+}
+.second_pic1{
+    position: absolute;
+    top:71vh;
+    left:23vw;
+}
+.second_picture{
+    height:20vh;
+    width: 56.7vw;
+} 

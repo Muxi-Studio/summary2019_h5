@@ -45,11 +45,18 @@ src: url('../fonts/myfont.ttf');
     background: url(./../image/back2.png);
     background-size:cover;
 }
+
 #third{
     background: url(../image/page3/background.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
+}
+#forth{
+    width:100vw;
+    height:100vh;
+    background: url(./../image/back4.jpg);
+    background-size:cover;
 }
 #six{
     background: url(../image/page6/back.png);
@@ -69,3 +76,5 @@ src: url('../fonts/myfont.ttf');
     height: 100vh;
     background-size: cover;     
 }
+
+
