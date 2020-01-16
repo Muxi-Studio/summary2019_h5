@@ -4,31 +4,34 @@
 }
 .six-font1{
     font-size: 1.5625rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
     color: rgba(101, 53, 97, 1);
 }
 .six-font2{
     font-size: 2.375rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
     color: rgba(225, 91, 77, 1);
 }
 .six-w1{
     top: 10vh;
-    left: 27vw;
 }
 .six-w2{
     top: 17vh;
-    left: 25vw;
 }
 .six-w3{
-    left: 16vw;
-    top: 32vh;
+    top: 30vh;
 }
 .six-w4{
-    left: 18vw;
-    top: 41vh;
+    top: 39vh;
 }
 .six-w5{
-    left: 16vw;
-    top: 50vh;
+    top: 48vh;
 }
 .six-cloud3{
     position: absolute;
@@ -50,6 +53,7 @@
     height: 16.5vh;
     left: 0;
     bottom: 11.7vh;
+    z-index: 100
 }
 .six-cloud2{
     position: absolute;
@@ -57,4 +61,12 @@
     height: 15vh;
     left: -10vw;
     bottom: -6vh;
+}
+#six-condition{
+    width: 60.5vw;
+    height: 25.26vh;
+    z-index: 10;
+    position: absolute;
+    bottom: 20vh;
+    left: 10vw;
 }

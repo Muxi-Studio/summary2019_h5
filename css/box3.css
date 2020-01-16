@@ -54,7 +54,7 @@ to{transform: rotate(360deg);}
     left: 0;
     right: 0;
     margin: auto;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: rgba(76, 107, 163, 1);
 }
 .third-middle{
@@ -70,8 +70,11 @@ to{transform: rotate(360deg);}
     color: rgba(255, 137, 33, 1);
 }
 .third-word2{
-    left: 15vw;
+    left: 0;
+    right: 0;
     top: 40.7vh;
+    margin: auto;
+    text-align: center;
     font-size: 1.5625rem;
     color: rgba(255, 137, 33, 1);
 }
@@ -79,6 +82,13 @@ to{transform: rotate(360deg);}
     font-size: 1rem;
     color: rgba(76, 107, 163, 1);
     text-align: center;
+    left: 0;
+    right: 0;
+    top: 51.6vh;
+    margin: auto;
+}
+.third-word2 span{
+    color: rgba(76, 107, 163, 1);
 }
 #third-con-img,#third-con-word{
     position: absolute;
