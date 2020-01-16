@@ -58,6 +58,13 @@ src: url('../fonts/myfont.ttf');
     background: url(./../image/back4.jpg);
     background-size:cover;
 }
+#fifth {
+    width: 100vw;
+    height: 100vh;
+    background: url(../image/page5.png);
+    overflow: hidden;
+    background-size: cover;
+}
 #six{
     background: url(../image/page6/back.png);
     width: 100vw;
