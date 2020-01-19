@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@font-face
+{
+font-family: "Myfont";
+src: url('./file/myfont.ttf');
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    margin:0;
+    padding:0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backperson{
+    width:100vw;
+    height:100vh;
+    background: url(./file/bank.png) no-repeat;
+    background-size:100% 100%;  
+    font-family: "Myfont";
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.backperson_text1{
+    font-size:4.6vh;
+    color:rgba(223,47,47,1);
+    line-height:5.2vh;
+    margin-top:8vh;
 }
-
-.App-link {
-  color: #61dafb;
+.backperson_text2{
+    height:4.4vh;
+    margin-top:7vh;
+    border-bottom: 2px solid rgba(223,47,47,1);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.backperson_style2{
+    font-size:3.1vh;
+    color:rgba(40,38,38,1);
+}
+.backperson_style3{
+    font-size:2.6vh;
+    color:rgba(40,38,38,1);
+}
+.backperson_text3{
+    margin-top:6.3vh;
+    width:71vw;
+}
+.backperson_text4{
+    margin-top:1.5vh;
+    height:4.4vh;
+    border-bottom: 2px solid rgba(223,47,47,1);
+}
+.backperson_text5{
+    margin-top:7.3vh;
+    height:4.4vh;
+    border-bottom: 2px solid rgba(223,47,47,1);
 }
