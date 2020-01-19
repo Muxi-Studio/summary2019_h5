@@ -50,3 +50,53 @@ body{
     height:4.4vh;
     border-bottom: 2px solid rgba(223,47,47,1);
 }
+.backperson_text6{
+    position: absolute;
+    top: 82vh;
+    left: 24vh;
+    font-size:3.1vh;
+    color:rgba(40,38,38,1);
+}
+.backperson_text7{
+    position: absolute;
+    top: 86vh;
+    left: 9vh;
+    font-size:3.1vh;
+    color:rgba(40,38,38,1);
+}
+.backperson_block{
+    position: absolute;
+    top: 78vh;
+    left: 35vh;
+    width: 29vw;
+    height: 29vw;
+    background-color: red;
+}
+.pause {
+    height: 100%;
+    display: block;
+    background: url(./file//music/暂停.png);
+    background-size: cover;  
+}
+.musicControl{
+    position: fixed;
+    left: 76vw;
+    top: 2vh;
+    width: 15vw;
+    height: 15vw;
+}
+.play {
+    height: 100%;
+    display: block;
+    background: url(./file/music/音乐播放.png) no-repeat;
+    background-size: cover;  
+    animation: reverseRotataZ 1.2s linear infinite;
+}
+@keyframes reverseRotataZ{
+    0%{-webkit-transform: rotateZ(0deg);}
+    100%{-webkit-transform: rotateZ(-360deg);}
+}
+@keyframes rotataZ{
+    0%{-webkit-transform: rotateZ(0deg);}
+    100%{-webkit-transform: rotateZ(360deg);}
+}
