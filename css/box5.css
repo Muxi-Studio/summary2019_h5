@@ -28,22 +28,18 @@
 .fifth_text1 {
     position: absolute;
     top: 10vh;
-    left: 18vw;
 }
 .fifth_text2 {
     position: absolute;
     top: 17vh;
-    left: 19vw;
 }
 .fifth_text3 {
     position: absolute;
     top: 27vh;
-    left: 29vw;
 }
 .fifth_text4 {
     position: absolute;
     top: 35vh;
-    left: 21vw;
 }
 .fifth_style {
     font-family: "Myfont";

@@ -83,5 +83,106 @@ src: url('../fonts/myfont.ttf');
     height: 100vh;
     background-size: cover;     
 }
+.center{
+    position: absolute;
+    left: 0;    right: 0;
+    margin: auto;
+    text-align: center;
+}
+@keyframes fadein
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.display1{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display2{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display3{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display4{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display5{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-delay: 4.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display6{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display7{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.display8{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
 
-
+.pause {
+    height: 100%;
+    display: block;
+    background: url(../music/暂停.png);
+    background-size: cover;  
+}
+.musicControl{
+    position: fixed;
+    left: 76vw;
+    top: 2vh;
+    width: 15vw;
+    height: 15vw;
+}
+.play {
+    height: 100%;
+    display: block;
+    background: url(../music/音乐播放.png) no-repeat;
+    background-size: cover;  
+    animation: reverseRotataZ 1.2s linear infinite;
+}
+@keyframes reverseRotataZ{
+    0%{-webkit-transform: rotateZ(0deg);}
+    100%{-webkit-transform: rotateZ(-360deg);}
+}
+@keyframes rotataZ{
+    0%{-webkit-transform: rotateZ(0deg);}
+    100%{-webkit-transform: rotateZ(360deg);}
+}

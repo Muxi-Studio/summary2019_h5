@@ -7,7 +7,12 @@
     <title> Demo </title>
 </head>
 <body>
+
     <div id="iSlider-wrapper"></div>
+    <div class="musicControl" onclick="autoPlay()">
+        <a class="play" id="audioBtn" style="cursor:pointer"></a>
+        <audio id="bgMusic" loop="loop" autoplay="autoplay" src="./music/music.mp3"></audio>
+    </div>
     <div style="display: none">
         <div id="first">
             <img class="first-title" src="image/page1/zi.png" alt="标题">
@@ -19,41 +24,41 @@
             <img class="second_fcloud" src="image/云1.png" >
             <img class="second_scloud" src="image/云2.png" >
             <img class="second_tcloud" src="image/云3.png" >
-            <div class = "second_text1">
+            <div class = "second_text1 display1">
                 <span class = "second_style1">从2019年</span>
                 <span class = "second_style2">3</span>
                 <span class = "second_style1">月</span>
                 <span class = "second_style2">1</span>
                 <span class = "second_style1">日</span>
             </div>
-            <div class = "second_text2">
+            <div class = "second_text2 display2">
                 <span class = "second_style1">——2019年</span>
                 <span class = "second_style2">3</span>
                 <span class = "second_style1">月</span>
                 <span class = "second_style2">1</span>
                 <span class = "second_style1">日</span>
             </div>
-            <div class = "second_text3">
+            <div class = "second_text3 display3" >
                 <span class = "second_style1">你总共刷过</span>
             </div>
-            <div class = "second_text4">
+            <div class = "second_text4 display4">
                 <span class = "second_style3">2563</span>
                 <span class = "second_style1">次校园卡</span>
             </div>
-            <div class = "second_text5">
+            <div class = "second_text5 display5">
                 <span class = "second_style1">共计消费</span>
                 <span class = "second_style3">26530</span>
                 <span class = "second_style1">元</span>
             </div>
-            <div class="second_text6">
+            <div class="second_text6 display6">
                 <span class = "second_style4">相当于。。。</span>
             </div>
-            <div class="second_text7">
+            <div class="second_text7 display7" >
                 <span class = "second_style5">可以买</span>
                 <span class = "second_style3">256</span>
                 <span class = "second_style5">支</span>
             </div>
-            <div class="second_text8">
+            <div class="second_text8 display8">
                 <span class = "second_style5">YZL水光唇釉613</span>
             </div>
             <div class="second_pic1">
@@ -62,12 +67,12 @@
         </div>
         <div id="third">
             <img class="third-cloud1" src="image/page3/云1.png">
-            <div class="third-top third-font">在<span id="third-inner11">2019年10月10日</span></div>
-            <div class="third-middle third-font">你在<span id="third-inner2">学子食堂</span><br><br> 开始了你一天的消费</div>
+            <div class="third-top third-font display1">在<span id="third-inner11">2019年10月10日</span></div>
+            <div class="third-middle third-font display2">你在<span id="third-inner2">学子食堂</span><br><br> 开始了你一天的消费</div>
             <img class="third-cloud2" src="image/page3/云2.png">
-            <div class="third-word1 third-font">这是一年里</div>
-            <div class="third-word2 third-font">你刷卡<span>最早</span>的一天</div>
-            <div class="third-font third-word3">时间在<span id="third-inner12">10：00</span></div>
+            <div class="third-word1 third-font display3">这是一年里</div>
+            <div class="third-word2 third-font display4">你刷卡<span>最早</span>的一天</div>
+            <div class="third-font third-word3 display5">时间在<span id="third-inner12">10：00</span></div>
             <img id="third-con-img" src="image/page3/朝霞.png">
             <div id="third-con-word" class="third-font">清晨的朝霞美丽吗？</div>
             <img class="third-pig" src="image/common/方猪.png">
@@ -76,33 +81,33 @@
             <img class="forth_fcloud" src="image/4cloud1.png" >
             <img class="forth_scloud" src="image/4cloud2.png" >
             <img class="forth_icon" src="image/page4.png" >
-            <div class = "forth_text1">
+            <div class = "forth_text1 display1">
                 <span class = "forth_style1">在2019年</span>
                 <span class = "forth_style2">3</span>
                 <span class = "forth_style1">月</span>
                 <span class = "forth_style2">1</span>
                 <span class = "forth_style1">日晚上</span>
             </div>
-            <div class = "forth_text2">
+            <div class = "forth_text2 display2">
                 <span class = "forth_style3">你在</span>
                 <span class = "forth_style3">东一食堂</span>
             </div>
-            <div class = "forth_text3">
+            <div class = "forth_text3 display3">
                 <span class = "forth_style3">结束了你一天的消费</span>
             </div>
-        <div class = "forth_text4">
+        <div class = "forth_text4 center display4">
             <span class = "forth_style4">这是你一年里刷卡</span>
             <span class = "forth_style5">最晚</span>
             <span class = "forth_style4">的一天</span>
         </div>
-        <div class = "forth_text5">
+        <div class = "forth_text5 center display5">
             <span class = "forth_style6">时间在</span>
             <span class = "forth_style3">10:10</span>
         </div>
-        <div class = "forth_text6">
+        <div class = "forth_text6 center display6">
             <span class = "forth_style7">恭喜你度过了一个</span>
         </div>
-        <div class = "forth_text7">
+        <div class = "forth_text7 center display7">
             <span class = "forth_style7">没有宵夜的夜晚!</span>
         </div>
     </div>
@@ -114,33 +119,33 @@
         <canvas id="canvas" style="position:absolute;top:56.24vh;left:10vw;">
             您的浏览器不支持canvas弹幕。
         </canvas>
-        <div class = "fifth_text1">
-            <span class = "fifth_style">2019年</span>
+        <div class = "fifth_text1 center">
+            <span class = "fifth_style display1">2019年</span>
             <span class = "fifth_style">10</span>
             <span class = "fifth_style">月</span>
             <span class = "fifth_style">10</span>
             <span class = "fifth_style">日</span>
         </div>
-        <div class = "fifth_text2">
+        <div class = "fifth_text2 center display2">
             <span class = "fifth_style">你一共刷了</span>
             <span class = "fifth_style">10</span>
             <span class = "fifth_style">次卡</span>
         </div>
-        <div class = "fifth_text3">
+        <div class = "fifth_text3 center display3">
             <span class = "fifth_style">这是一年里</span>
         </div>
-        <div class = "fifth_text4">
+        <div class = "fifth_text4 center display4">
             <span class = "fifth_style">你刷卡最多的一天</span>
         </div>
     </div>
     <div id="six">
         <img class="six-cloud3" src="image/page6/云3.png"> 
         <img class="six-kite" src="image/page6/风筝.png"> 
-        <div class="six-w1 six-font1">在2019年里</div>            
-        <div class="six-w2 six-font2" id="six-inner1">便利店</div>
-        <div class="six-w3 six-font1">是你消费<span>最多</span>的地方</div>            
-        <div class="six-w4 six-font1">总共消费了<span id="six-inner2">1234</span>次</div>
-        <div class="six-w5 six-font1">为它贡献了￥<span id="six-inner3">12345</span></div>            
+        <div class="six-w1 six-font1 display1">在2019年里</div>            
+        <div class="six-w2 six-font2 display2" id="six-inner1">便利店</div>
+        <div class="six-w3 six-font1 display3">是你消费<span>最多</span>的地方</div>            
+        <div class="six-w4 six-font1 display4">总共消费了<span id="six-inner2">1234</span>次</div>
+        <div class="six-w5 six-font1 display5">为它贡献了￥<span id="six-inner3">12345</span></div>            
         <img class="six-cloud1" src="image/page6/云1.png"> 
         <img id="six-condition" src="image/page6/超市便利店.png">  
         <img class="six-cloud2" src="image/page6/云2.png"> 
@@ -180,6 +185,16 @@
     <script src="js/iSlider.min.js"></script>
     <script src="js/style.js"></script>
     <script src="js/barrage.js"></script>
+    <script src="js/animation-control.js"></script>
+    <script type="text/javascript">
+        function autoPlay() {
+            var music = document.getElementById("vd");
+            if (music.paused) { //判读是否播放  
+                music.paused=false;
+                music.play(); //没有就播放 
+            	}
+        }
+    </script>
     <script id="show-code">
         var list = [
             {
@@ -211,6 +226,25 @@
                             data: list,
                             isVertical: true
                             });
+    </script>
+    <script type="text/javascript">
+        function autoPlay() {
+            var audio = document.getElementById("bgMusic");
+            var button = document.getElementById("audioBtn");
+            function hasClass(element, cls) {
+        return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+            }
+            if( hasClass(button,'play')){
+            audio.pause();
+            button.classList.replace("play","pause");
+            return;
+            }
+            if(hasClass(button,'pause')){
+            audio.play();
+            button.classList.replace("pause","play");
+            return;
+            }
+        }
     </script>
     <script src="/js/request.js"></script>
 </body>

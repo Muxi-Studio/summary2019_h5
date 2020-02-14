@@ -11,14 +11,14 @@
         "桂香园石锅拌饭",  "东一港式风味",   "学子热干面",   "东一牛肉面",
     ]
     
-    ctx.font = "3vh Microsoft YaHei";
+    ctx.font = "5vw Microsoft YaHei";
     var numArrL = []; //初始的X
     var numArrnum = [0,1,2,3,0,1,2,3];
     var numArrnum1 = [3,2,1,0,0,1,2,3];
     var numArrT = []; //初始的Y
     var numspeed = [];
     for(let i = 0;i < textArr.length ;i++){
-        numArrT.push(numArrnum[i] * canvas.height / 4 + canvas.height / 7);
+        numArrT.push(numArrnum[i] * canvas.height / 4 + canvas.height / 8);
         numArrL.push(numArrnum[i] * canvas.width / 4);
         colorArr.push("white");
         numspeed.push(numArrnum1[i] * 2 + 1);

@@ -23,27 +23,27 @@ src: url('./../myfont.ttf');
 }
 .second_style1{
     font-family:"Myfont";
-    font-size:8vw;
+    font-size:7vw;
     color: #264F40;
 }
 .second_style2{
     font-family:"Myfont";
-    font-size:10vw;
+    font-size:8.5vw;
     color: #DC4B3C;
 }
 .second_style3{
     font-family:"Myfont";
-    font-size:13.3vw;
+    font-size:10vw;
     color: #DC4B3C;
 }
 .second_style4{
     font-family:"Myfont";
-    font-size:6.2vw;
+    font-size:5vw;
     color: #264F40;
 }
 .second_style5{
     font-family:"Myfont";
-    font-size:8vw;
+    font-size:7vw;
     color: #496EB4;
 }
 .second_text1{
