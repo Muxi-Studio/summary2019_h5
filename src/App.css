@@ -53,21 +53,21 @@ body{
 .backperson_text6{
     position: absolute;
     top: 82vh;
-    left: 24vh;
-    font-size:3.1vh;
-    color:rgba(40,38,38,1);
+    left: 19vh;
+    font-size: 3.1vh;
+    color: rgba(40,38,38,1);
 }
 .backperson_text7{
     position: absolute;
     top: 86vh;
-    left: 9vh;
+    left: 4vh;
     font-size:3.1vh;
     color:rgba(40,38,38,1);
 }
 .backperson_block{
     position: absolute;
     top: 78vh;
-    left: 35vh;
+    left: 29vh;
     width: 29vw;
     height: 29vw;
     background-color: red;
